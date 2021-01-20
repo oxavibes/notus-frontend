@@ -1,4 +1,4 @@
-# notus-front-nuxt
+# Notus - A simple taking note webapp
 
 ## Build Setup
 
