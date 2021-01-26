@@ -1,6 +1,7 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  ssr: false,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -11,6 +12,10 @@ export default {
       { hid: 'description', name: 'description', content: '' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  },
+
+  router: {
+    routeNameSplitter: '-',
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -52,4 +57,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // Taildwind configuration
+  tailwindcss: {
+    configPath: 'tailwind.config.js',
+    exposeConfig: false,
+  },
 }
