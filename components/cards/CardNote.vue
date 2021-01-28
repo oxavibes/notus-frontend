@@ -1,10 +1,10 @@
 <template>
-  <div class="mb-2 px-2 w-full md:w-6/12 xl:w-3/12">
+  <div class="mb-2 px-2 w-6/12 lg:w-4/12 xl:w-3/12">
     <div class="shadow-md my-2 px-6 py-8 bg-white rounded">
       <span class="text-xs text-gray-500 text-bold block mb-2"
         >23 June, 2017</span
       >
-      <router-link v-slot="{ href, navigate, isActive }" to="#">
+      <NuxtLink v-slot="{ href, navigate, isActive }" to="#">
         <a
           :href="href"
           class="text-sm md:text-md capitalize font-bold block mb-2"
@@ -16,7 +16,7 @@
           ></span>
           The monkey-rope
         </a>
-      </router-link>
+      </NuxtLink>
       <p class="text-sm text-left text-gray-600">
         Being the savage's bowsman, thats is the person who pulled the bow-oar.
       </p>
