@@ -26,7 +26,7 @@
         block: dropdownPopoverShow,
       }"
     >
-      <router-link v-slot="{ href }" to="/admin/settings">
+      <NuxtLink v-slot="{ href }" to="/admin/settings">
         <a
           :href="href"
           class="text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
@@ -34,13 +34,15 @@
         >
           Settings
         </a>
-      </router-link>
-      <a
-        href="#"
-        class="text-sm py-2 px-4 block w-full whitespace-no-wrap bg-transparent font-bold text-gray-800"
-      >
-        Logout
-      </a>
+      </NuxtLink>
+      <NuxtLink v-slot="{ href }" to="/auth/">
+        <a
+          :href="href"
+          class="text-sm py-2 px-4 block w-full whitespace-no-wrap bg-transparent font-bold text-gray-800"
+        >
+          Logout
+        </a>
+      </NuxtLink>
     </div>
   </div>
 </template>
