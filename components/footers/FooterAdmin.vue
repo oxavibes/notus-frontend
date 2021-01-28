@@ -1,6 +1,6 @@
 <template>
-  <footer class="block py-4">
-    <div class="container mx-auto px-4">
+  <footer class="absolute bottom-0 block w-full py-4">
+    <div class="container mx-auto px-4 w-full">
       <hr class="mb-4 border-b-1 border-gray-300" />
       <div
         class="flex flex-wrap items-center md:justify-between justify-center"
@@ -60,10 +60,10 @@
 </template>
 <script>
 export default {
-  data() {
-    return {
-      date: new Date().getFullYear(),
-    }
+  computed: {
+    date() {
+      return new Date().getFullYear()
+    },
   },
 }
 </script>
