@@ -1520,6 +1520,11 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
+"@popperjs/core@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.6.0.tgz#f022195afdfc942e088ee2101285a1d31c7d727f"
+  integrity sha512-cPqjjzuFWNK3BSKLm0abspP0sp/IGOli4p5I5fKFAzdS8fvjdOwDCfZqAaIiXd9lPkOWi3SUUfZof3hEb7J/uw==
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.2.tgz#858f5c4b48d80778fde4b9d541f27edc0d56488b"
@@ -6982,10 +6987,10 @@ kleur@^3.0.3:
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-known-css-properties@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.20.0.tgz#0570831661b47dd835293218381166090ff60e96"
-  integrity sha512-URvsjaA9ypfreqJ2/ylDr5MUERhJZ+DhguoWRr2xgS5C7aGCalXo+ewL+GixgKBfhT2vuL02nbIgNGqVWgTOYw==
+known-css-properties@^0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.21.0.tgz#15fbd0bbb83447f3ce09d8af247ed47c68ede80d"
+  integrity sha512-sZLUnTqimCkvkgRS+kbPlYW5o8q5w1cu+uIisKpEWkj31I8mx8kNG162DwRav8Zirkva6N5uoFsm9kzK4mUXjw==
 
 koa-compose@^3.0.0:
   version "3.2.1"
@@ -10651,10 +10656,10 @@ stylelint-webpack-plugin@^2.0.0:
     micromatch "^4.0.2"
     schema-utils "^3.0.0"
 
-stylelint@^13.8.0:
-  version "13.9.0"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-13.9.0.tgz#93921ee6e11d4556b9f31131f485dc813b68e32a"
-  integrity sha512-VVWH2oixOAxpWL1vH+V42ReCzBjW2AeqskSAbi8+3OjV1Xg3VZkmTcAqBZfRRvJeF4BvYuDLXebW3tIHxgZDEg==
+stylelint@^13.10.0:
+  version "13.10.0"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-13.10.0.tgz#67b0c6f378c3fa61aa569a55d38feb8570b0b587"
+  integrity sha512-eDuLrL0wzPKbl5/TbNGZcbw0lTIGbDEr5W6lCODvb1gAg0ncbgCRt7oU0C2VFDvbrcY0A3MFZOwltwTRmc0XCw==
   dependencies:
     "@stylelint/postcss-css-in-js" "^0.37.2"
     "@stylelint/postcss-markdown" "^0.36.2"
@@ -10675,7 +10680,7 @@ stylelint@^13.8.0:
     ignore "^5.1.8"
     import-lazy "^4.0.0"
     imurmurhash "^0.1.4"
-    known-css-properties "^0.20.0"
+    known-css-properties "^0.21.0"
     lodash "^4.17.20"
     log-symbols "^4.0.0"
     mathml-tag-names "^2.1.3"
