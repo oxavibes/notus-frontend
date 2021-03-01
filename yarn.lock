@@ -1520,6 +1520,11 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
+"@popperjs/core@^2.8.6":
+  version "2.8.6"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.8.6.tgz#ad75ebe8dbecfa145af3c7e4d0ae98016458d005"
+  integrity sha512-1oXH2bAFXz9SttE1v/0Jp+2ZVePsPEAPGIuPKrmljWZcS3FPBEn2Q4WcANozZC0YiCjTWOF55k0g6rbSZS39ew==
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.2.tgz#858f5c4b48d80778fde4b9d541f27edc0d56488b"
